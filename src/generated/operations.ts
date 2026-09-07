@@ -15,7 +15,7 @@
  * anything. So declining listings_d makes the catastrophic delete impossible
  * at the OAuth layer while leaving every normal operation working.
  */
-import type { Operation } from "@nasdigital/mcp-server-core";
+import type { Operation } from "@nasdigitaluk/mcp-server-core";
 
 export interface CataloguedOperation extends Operation {
   tags: string[];

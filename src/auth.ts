@@ -19,7 +19,7 @@
  * before spending anything, and writes atomically.
  */
 
-import { HttpClient, TokenStore, ToolError } from "@nasdigital/mcp-server-core";
+import { HttpClient, TokenStore, ToolError } from "@nasdigitaluk/mcp-server-core";
 
 const TOKEN_URL = "https://api.etsy.com/v3/public/oauth/token";
 /** Refresh this far ahead of expiry, so a long call cannot straddle it. */
