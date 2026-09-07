@@ -9,7 +9,7 @@ MIT licensed.
 ## Install
 
 ```bash
-npm install -g @nasdigital/etsy-mcp
+npm install -g @nasdigitaluk/etsy-mcp
 ```
 
 ## Authentication
@@ -121,7 +121,7 @@ SMOKE_ENV='{"ETSY_KEYSTRING":"x"}' npm run smoke   # real MCP over stdio
 
 ## Built on
 
-[`@nasdigital/mcp-server-core`](https://github.com/N-Graves/mcp-server-core).
+[`@nasdigitaluk/mcp-server-core`](https://github.com/N-Graves/mcp-server-core).
 
 ## Licence
 

@@ -34,7 +34,7 @@ import {
   TokenStore,
   authorizerFromEnv,
   runServer,
-} from "@nasdigital/mcp-server-core";
+} from "@nasdigitaluk/mcp-server-core";
 import { homedir } from "node:os";
 import { join } from "node:path";
 import { apiKeyAuth, authedClient, userAuth, type EtsyAuth } from "./auth.js";
